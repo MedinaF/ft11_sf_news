@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<h1>Hello everyone sur ma page d'Accueil</h1>
+<h2>je suis {{firstname}}</h2>
+<h3>Lien vers autre part :</h3>
+<a href="{{ path('about') }}">À propos</a>
+
+{% endblock %}
